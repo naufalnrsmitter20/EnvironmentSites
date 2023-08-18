@@ -1,0 +1,402 @@
+/*reset css*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*style css*/
+.container{
+    position: relative;
+}
+.container2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(47, 44, 33);
+    opacity: 1;
+    position: relative;
+    box-shadow: 5px 0px 7px white;
+}
+.header1{
+    font-size: 27px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: gold;
+    padding: 20px;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+nav{
+    position: absolute;
+    right: 80px;
+    top: 18px;
+}
+nav ul li{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 20px;
+    color: gold;
+    display: inline-block;
+    padding: 5px;
+}
+nav ul a:hover li{
+    color: white;
+}
+nav ul a:active li{
+    color: rgb(48, 48, 48);
+}
+.home{
+    margin-right: 10px;
+}
+.header2{
+    background-image: url(https://images.pexels.com/photos/1654330/pexels-photo-1654330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 530px;
+    background-size: cover;
+    min-height: 100vh;
+}
+.header2 h1.title1{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 110px;
+    right: auto;
+    left: 80px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.header2 h1.title2{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 180px;
+    left: 80px;
+    right: auto;
+    font-weight: 550;
+}
+.article1{
+    width: 600px;
+    height: 400px;
+}
+.header2 .article1{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 340px;
+    left: 80px;
+    right: auto;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.header2 button{
+    background-color: gold;
+    color: white;
+    border: 2px groove white;
+    padding: 17px;
+    width: 230px;
+    position: absolute;
+    top: 470px;
+    left: 80px;
+    right: auto;
+    font-size: 15px;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    letter-spacing: 1.3px;
+}
+.header2 button p{
+    font-weight: 550;
+}
+header.header2 a:hover button p{
+    color: black;
+}
+header.header2 a:active button p{
+    color: rgb(32, 32, 32);
+}
+header.header2 a:hover button {
+    border: 2px groove rgb(50, 50, 50);
+}
+section.one{
+    position: relative;
+    margin-top: 90px;
+}
+section.one .section1{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+section.one .section1 h1{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    left: 80px;
+    top: 110px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+section.one .section1 p{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 18px;
+    position: absolute;
+    top: 175px;
+    left: 80px;
+    padding-right: 90px;
+    letter-spacing: 1px;
+}
+.pline{
+    line-height: 20px;
+}
+section.one .section1 a p{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: normal;
+    position: absolute;
+    top: 290px;
+    left: 80px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: solid 1.5px rgb(0, 0, 0);
+    font-weight: 530;
+}
+section.one .section1 a:hover p{
+    color: gold;
+    border: solid 1.5px gold;
+}
+section.one .section1 a:hover {
+    border: solid 1.5px gold;
+}
+section.one .section2{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    position: absolute;
+    top: 50px;
+}
+section.one .section2 img{
+    width: 500px;
+    position: absolute;
+    right: 80px;
+}
+section.two{
+    position: relative;
+}
+section.two .section3{
+    width: 50%;
+    height: 400px;
+    display: inline-block;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
+section.two .section3 img{
+    width: 500px;
+}
+section.two .section4{
+    width: 50%;
+    height: 400px;
+    position: absolute;
+    right: 0;
+    top: 500px;
+    padding: 50px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+section.two .section4 h1{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: left;
+}
+section.two .section4 p{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+section.two .section4 a p{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    border: solid 1.5px rgb(0, 0, 0);
+    font-weight: 530;
+    width: max-content;
+}
+section.two .section4 a{
+    text-decoration: none;
+}
+section.two .section4 a:hover p{
+    color: gold;
+    border: 2px solid gold;
+}
+header.atc{
+    position: relative;
+    top: 900px;
+}
+header.atc div h1 {
+    text-align: center;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+    padding-top: 20px;
+}
+h1,h2,h3,h4,p{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+header.atc div.art1{
+    margin: 40px 80px auto 80px;
+}
+header.atc div.art2{
+    margin: auto 80px auto 80px;
+}
+div.art1 h2, div.art2 h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: -2px 1px 4px white;
+}
+header.atc{
+    background-color: rgb(255, 153, 0);
+}
+div.art1 p, div.art2 p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+div.art2 h2{
+    margin-top: 30px;
+}
+div.art2 p{
+    padding-bottom: 20px;
+}
+div h1 span.test{
+    text-shadow: 0px 2px 5px black;
+}
+form{
+    position: absolute;
+    left: 80px;
+    top: 2460px;
+    z-index: 999;
+}
+footer{
+    position: relative;
+    top: 1275px;
+    left: 0;
+}
+
+/*form*/
+div.formcontainer{
+    background-color: #5d12fd52;
+    width: 100%;
+    height: 375px;
+    position: absolute;
+    top: 2450px;
+}
+form label, form input{
+    display: block;
+}
+.inline-block{
+    display: inline-block;
+}
+.f-title{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+}
+.f-coloum{
+    width: 230px;
+    height: 15px;
+    margin: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px groove silver ;
+}
+.f-coloum{
+    color: black;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.submitForm{
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/*footer*/
+.footer{
+    text-align: center;
+    line-height: 45px;
+    height: 45px;
+    background-color: rgb(91, 91, 91);
+    z-index: 999;
+}
+
+span.test{
+    color: white;
+}
+span.test1{
+    color: gold;
+}
+span.test2{
+    color: black;
+}
+form.hidden-hide{
+    opacity: 0;
+    z-index: -999;
+}
